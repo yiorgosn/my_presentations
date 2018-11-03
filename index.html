@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>eolos</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/eolos-reveal.css" id="theme">
+		<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h3 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h3 {
+				color: #222;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="convex-in concave-out" id="landing-header" data-background="images/img6.jpg" >
+					<h1 id="landing-logo1">eolos</h1>
+                    <h4 id="landing-logo2">Liquid Equity Long/Short</h4>
+                    <br>
+                    <p id="version">Ver 1.3</p>
+				</section>
+				<section data-transition="zoom" >
+					<div class="eolos-header">SECTIONS</div> 
+					<br>
+                    <p id="sections-text">Disclaimer 
+                    <br/>Investment Philosophy
+                    <br/>Quantitative Fund Industry Overview
+                    <br/>Equity Market Structure Overview
+                    <br/>Investment Strategy
+                    <br/>Organization
+                    <br/>Eolos Technology Overview
+                    <br/>Appendix</p>
+                    <br>
+                </section>
+				<section data-transition="zoom-in fade-out" >
+					<div class="eolos-header">DISCLAIMER</div> 
+                    <br>
+                    <p id="disclaimer-text">Delivery of this presentation booklet to anyone other than the person intended as the recipient is unauthorized. Any reproduction or circulation of it, in whole or part, is prohibited.
+                            <br /><br />This is not an offer or the solicitation of an offer to purchase an interest in Eolos LLC or any Eolos LLC products. Any such offer or solicitation will only be made to qualified investors following the delivery of a confidential private placement memorandum and only in those jurisdictions where permitted by law.  All Eolos LLC products, investment strategies or bespoke investment solutions involve risk. No assurance can be given that the investment objectives will be achieved or that an investor will receive a return of all, or part, of his or her investment. Investment results may vary substantially over any given time period.
+                            <br /><br />This presentation does not take into account the investment objectives, financial situation or particular needs of any recipient hereof and should not be construed as legal, tax or investment advice. Investors should carefully review the Private Placement Memorandum and other relevant documents, and consult with independent legal, tax and business advisors concerning any potential investment. In making an investment decision, investors must rely solely on their own review and analysis and the terms of the Private Placement Memorandum and any other related documents, including the merits and risks involved, and not on any information or representation made or alleged to have been made herein or otherwise.  Disclosure regarding back-tested results: Back-tested investment results do not represent trades that actually occurred. Rather, they are simulated results from the retroactive application of the Investment Manager's investment model. While live historical trading using the Investment Manager’s investment model has also taken place, investors should bear in mind that this is a new entity without an official operating history.  All performance data in this presentation booklet  is gross of management and incentive fees, transaction and financing costs.
+                            <br /><br />Back-tested and historic performance are not necessarily indicative of the future performance.</p>
+ 				</section>
+
+				<section data-transition="convex-in concave-out" >
+					<div class="eolos-header">INVESTMENT PHILOSOPHY</div> 
+					<br>
+					<div id="body-text">
+						<p>The Eolos Liquid Equity Long/Short is a low net exposure strategy that endeavors to: </p>
+						<ul style="list-style:none; margin-left: 20vw;">
+							<li>Provide attractive stand-alone returns</li>
+							<li>Protect during equity market declines</li>
+							<li>Deliver a long volatility return profile</li>
+						</ul>
+						<p>
+							The proprietary alpha engine emphasizes stocks that are in transition higher or lower and via the  analysis of “on” and “off” exchange transactional data in combination with qualitative and proprietary data, implements a hedged equity strategy with an investment horizon of days to weeks. 
+						</p>
+						<img id="image1" src="images/eolos_invt_phil.png">
+					</div>
+				</section>
+				<section>
+					<section data-transition="convex-in concave-out">
+						<p id="section-page">QUANTITATIVE FUND INDUSTRY</p>
+					</section>
+					<section data-transition="convex-in concave-out">
+						<div class="eolos-header">QUANTITATIVE INVESTING TODAY</div> 
+						<br><br>
+						<div id="body-text">
+							<ul>
+								<li>A confluence of new regulations and new technologies created a new breed of quants</li>
+								<li>Quantitative (Algorithmic) finance funds manage roughly $1 Trillion – FT 1/8/2018</li>
+								<li>Algorithmic trading is growing at 10.3% CAGR ( Global Algorithmic Trading Market 2016-2020 )</li>
+								<li>6 of the top 10 hedge funds based on performance are quant funds</li>
+								<li>Roughly 90 % of volume in the public equities markets is traded algorithmically</li>
+							</ul>
+							<br><br>
+							<img id="image1" style="width: 35vw;" src="images/quant_invt_today.png">
+						</div>
+					</section>
+					<section data-transition="convex-in concave-out">
+						<div class="eolos-header">QUANTITATIVE FUNDS AUM HISTORY</div> 
+						<br>
+						<div id="body-text">
+							<img id="image2" src="images/quant_invt_aum.png">
+						</div>
+					</section>
+				</section>
+			<section data-transition="convex-in concave-out" data-background="images/img4.jpg" >
+				<h1 id="landing-logo1">eolos</h1>
+				<h4 id="landing-logo2">The End</h4>
+			</section>
+		
+			</div>
+
+		</div>
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				center: true,
+				history: true,
+                width: "100%",
+                height: "100%",
+                margin: 0,
+                minScale: 1,
+                maxScale: 1,
+				transition: 'convex',
+				// transitionSpeed: 'slow',
+                backgroundTransition: 'convex',
+                dependencies: [
+                    // Title-footer
+                    { src: 'js/title-footer.js', async: true, callback: function() { 
+                            title_footer.initialize(title="eolos", background="rgba(35,35,35,0)"); 
+                            // title_footer.initialize(title="eolos"); 
+                        } 
+                    }
+                ]
+			});
+
+		</script>
+
+	</body>
+</html>
