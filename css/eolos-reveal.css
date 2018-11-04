@@ -277,17 +277,6 @@ body {
 /*********************************************
  * Eolos Settings
  *********************************************/
- .eolos-header{
-  position: absolute; 
-  top: 5vh; 
-  left: 10vw; 
-  width: 80vw; 
-  height: 9vh; 
-  /* z-index:500;  */
-  font-size: 90% !important;
-  text-align: left;
-  background-image: linear-gradient(to right, #232323,gray, #232323);
-}
 #bio{
   margin-left: 5vw;
   line-height: 2.25;
@@ -325,6 +314,23 @@ body {
   height: 80vh;
   font-size: 35%;
   text-align: justify;
+}
+#eolos-header{
+  position: absolute; 
+  /* top: 5vh; 
+  left: 10vw; 
+  width: 80vw; 
+  height: 9vh;   */
+  top: 5%; 
+  left: 10%; 
+  width: 80%; 
+  /* height: 8%;  */
+  /* z-index:500;  */
+  font-size: 90% !important;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: linear-gradient(to right, #232323,gray, #232323);
 }
 #eolos-ptext{
   margin-left: 10vw; 
