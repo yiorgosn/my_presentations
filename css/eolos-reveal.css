@@ -317,15 +317,9 @@ body {
 }
 #eolos-header{
   position: absolute; 
-  /* top: 5vh; 
-  left: 10vw; 
-  width: 80vw; 
-  height: 9vh;   */
   top: 5%; 
   left: 10%; 
   width: 80%; 
-  /* height: 8%;  */
-  /* z-index:500;  */
   font-size: 90% !important;
   text-align: left;
   padding-top: 0;
@@ -343,15 +337,23 @@ body {
   opacity: 0;
 }
 #image1{
-  height: 30vh; width: 45vw;
+  /* height: 30vw; width: 45vw; */
+  width: 50%;
   border: none; outline: none; display: block; margin-left: auto; margin-right: auto;
 }
 #image1a{
   height: 27vh; 
   border: none; outline: none; display: block; margin-left: auto; margin-right: auto;
 }
+#image1b{
+  width: 45%; 
+  margin-top: 2%;
+  border: none; outline: none; display: block; margin-left: auto; margin-right: auto;
+}
 #image2{
-  height: 70vh; margin-top: 7vh; 
+  /* height: 70vh;  */
+  margin-top: 3%; 
+  width: 57%;
   border: none; outline: none; display: block; margin-left: auto; margin-right: auto;
 }
 #image2a{
