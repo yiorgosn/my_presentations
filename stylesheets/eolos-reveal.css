@@ -301,8 +301,8 @@ body {
   height: 80%;
   text-align: justify;
   line-height: 1.75;
-  /* font-size: 40%; */
-  font-size: 3vmin;
+  font-size: 40%;
+  /* font-size: 3vmin; */
 }
 #dark_pools{
   list-style: none; 
