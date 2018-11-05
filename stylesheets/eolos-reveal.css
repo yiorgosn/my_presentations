@@ -317,7 +317,7 @@ body {
 }
 #eolos-header{
   position: absolute !important; 
-  top: 5%; 
+  top: 5% !important; 
   left: 10%; 
   width: 80%; 
   font-size: 80% !important;
@@ -332,6 +332,14 @@ body {
   text-align: justify;
   line-height: 1.75;
   font-size: 40%;
+}
+#filler{
+  list-style: none; 
+  opacity: 0;
+  line-height: 2;
+  width: 80%;
+  margin-left: 10%; 
+  text-align: center;
 }
 #hidden{
   opacity: 0;
